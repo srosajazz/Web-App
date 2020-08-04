@@ -5,6 +5,9 @@ import studyIcon from "../../assets/images/icons/study.svg";
 import giveClassesIcon from "../../assets/images/icons/give-classes.svg";
 import purpleHeartIcon from "../../assets/images/icons/purple-heart.svg";
 
+// import css from pages/Landing pages
+import "./styles.css";
+
 function Landing() {
   return (
     <div id="page-landing">
@@ -17,19 +20,19 @@ function Landing() {
 
         {/* Buttons */}
         <div className="buttons-container">
-          <a href="" className="study">
+          <a href="/" className="study">
             <img src={studyIcon} alt="Study" />
             Study
           </a>
 
-          <a href="" className="give-class">
+          <a href="/" className="give-classes">
             <img src={giveClassesIcon} alt="Study" />
             Study
           </a>
         </div>
         {/*  */}
         <span className="total-connections">
-          Total of 400 conections!{" "}
+          Total of 400 conections
           <img src={purpleHeartIcon} alt="purple heart" />
         </span>
       </div>
